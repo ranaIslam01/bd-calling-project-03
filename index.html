@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bd-calling-project-03</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header
+      class="bg-[url(./images/banner.png)] bg-cover bg-center h-screen brightness-95 contrast-125 relative"
+    >
+      <!-- Navbar Start -->
+      <nav
+        class="flex justify-between items-center px-[7%] py-3 backdrop-blur-lg brightness-95 sticky"
+      >
+        <div>
+          <a href="/"
+            ><img
+              class="h-14 w-auto cursor-pointer"
+              src="./Images/logo.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="lg:block hidden">
+          <div class="flex list-none gap-6 items-center">
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/">Home</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/services">Services </a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/about-us">About Us</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/rates">Rates</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/cost-calculator">Cost Calculator</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-[#0B2A77] text-white font-medium"
+          >
+            <a href="/benefits">Benefits</a>
+          </li>
+        </div>
+        </div>
+        <div class="sm:block hidden">
+          <div class="flex gap-4">
+          <button class="btn">Sign up</button>
+          <button class="btn">Sign In</button>
+        </div>
+        </div>
+      </nav>
+      <!-- Navber End -->
+
+      <!-- header start  -->
+      <div class="flex justify-between items-center md:mt-30 mt-6 px-[7%]">
+        <div>
+          <button class="bg-gray-400 rounded-full p-3 text-[#43cfac] cursor-pointer"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+        <div class="max-w-2xl text-center flex flex-col gap-6">
+          <h1 class="md:text-6xl text-3xl text-white font-bold">Welcome to Swift Express Cargo</h1>
+          <p class="md:text-4xl text-2xl text-white">
+            Lorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci
+            tellus sollicitudin morbi. Duis massa sit
+          </p>
+          <div class="relative" >
+            <input class=" px-5 w-3/4 justify-center py-4 border border-green-400 rounded-full backdrop-blur-sm text-white outline-none" type="text" placeholder="Traking Number" required />
+            <button class="btn sm:absolute right-22 top-[3px] sm:flex-row flex-col md:mt-0 mt-5">Track Now</button>
+          </div>
+        </div>
+        <div>
+          <button class="bg-gray-400 rounded-full p-3 text-[#43cfac] cursor-pointer"><i class="fa-solid fa-chevron-right "></i></button>
+        </div>
+      </div>
+      <div class="flex gap-4 justify-center items-center mt-10">
+        <div class="bg w-6 rounded-full h-2 cursor-pointer"></div>
+        <div class="w-6 rounded-full h-2 cursor-pointer bg-gray-500"></div>
+        <div class="w-6 rounded-full h-2 cursor-pointer bg-gray-500"></div>
+      </div>
+    </header>
+    <!-- Header End  -->
+
+    <!-- Popular Brands  -->
+      <section class="px-[16%] py-16 bg-gray-50">
+        <div class="flex justify-between">
+          <div>
+          <h1 class="text-4xl text-gray-800 font-bold">Popular Brands</h1>
+        </div>
+        <div class="flex items-center">
+          <span class="bg text-white p-3 rounded-full mr-2"><i class="fa-solid fa-chevron-left"></i></span>
+          <span class="bg text-white p-3 rounded-full"><i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+        </div>
+        <div class=" grid grid-cols-2 lg:grid-cols-7 md:grid-cols-4 gap-6 my-8">
+          <div class="border flex items-center flex-col justify-center bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/babymel.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Babymel</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/burberry.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Burberry</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/camper.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Camper</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/chanel.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Chanel</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/fila.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Fila</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/puma.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Puma</h1>
+          </div>
+          <div class=" flex items-center flex-col justify-center border bg-white border-gray-200 rounded-xl p-6 text-center">
+            <img class="w-36 h-auto" src="./Images/adidas.png" alt="">
+            <h1 class="text-2xl font-semibold text-gray-500">Adidas</h1>
+          </div>
+         
+        </div>
+      </section>
+
+  </body>
+</html>
