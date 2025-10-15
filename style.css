@@ -17,15 +17,9 @@
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
-    border: 2px solid #89CE14;
+    border: 1px solid #89CE14;
     background: var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
     transition: 0.6s;
-}
-.bg{
-    background: var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
-}
-.text{
-    color:  var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
 }
 .hover:hover{
   color: #89CE14;
@@ -33,6 +27,13 @@
   border: 1px solid #89CE14;
   transition: 0.5s;
 }
+.bg{
+    background: var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
+}
+.text{
+    color:  var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
+}
+
 
 .arrow {
   padding: 17px 20px;
