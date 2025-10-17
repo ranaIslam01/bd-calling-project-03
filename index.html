@@ -28,19 +28,10 @@
     <!-- colors -->
   </head>
   <body class="roboto relative">
-   <header class="relative">
-  <!-- Background Image Layer -->
-  <div class="absolute inset-0 -z-10">
-    <img
-      src="/Images/banner.png"
-      alt="Swift Express Cargo Background"
-      class="w-full h-full bg-center bg-cover object-cover brightness-75 contrast-110"
-    />
-    <div class="absolute inset-0"></div>
-  </div>
 
-  <!-- Navbar -->
-  <nav class="flex justify-between items-center px-[7%] py-3 backdrop-blur-xl relative z-20">
+      <div class="bg-[url(/Images/banner.png)] bg-center bg-cover sticky z-10 top-0 left-0 right-0">
+        <!-- Navbar -->
+  <nav class=" flex justify-between items-center px-[7%] py-3 backdrop-blur-xl relative z-20">
     <div>
       <a href="/">
         <img class="h-[60px] cursor-pointer" src="/Images/logo.png" alt="Swift Express Cargo Logo" />
@@ -64,6 +55,21 @@
       <button onclick="my_modal_3.showModal()" class="button hover ">Sign In</button>
     </div>
   </nav>
+      </div>
+
+   <header class="relative -z-20">
+
+  <!-- Background Image Layer -->
+  <div class="absolute inset-0 -z-10">
+    <img
+      src="/Images/banner.png"
+      alt="Swift Express Cargo Background"
+      class="w-full h-full bg-center bg-cover object-cover brightness-75 contrast-110"
+    />
+    <div class="absolute inset-0"></div>
+  </div>
+
+
 
   <!-- Mobile Drawer Menu -->
   <div id="mobile-menu" class="fixed top-0 right-[-100%] lg:hidden w-[70%] max-w-sm h-full backdrop-blur-xl bg-opacity-95 p-8 transition-all duration-500 ease-in-out z-50">
