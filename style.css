@@ -27,6 +27,11 @@
   border: 1px solid #89CE14;
   transition: 0.5s;
 }
+.btn2{
+  color: #89CE14;
+  background: transparent;
+  border: 1px solid #89CE14;
+}
 .bg{
     background: var(--Gredient, linear-gradient(90deg, #6DA015 0%, #46C0A2 100%));
 }
@@ -104,4 +109,12 @@ background-clip: text;
   top: 20%;
   left: 50%;
   transform: translate(-50%);
+}
+.liniar-bg{
+background: linear-gradient(
+  to right,
+  rgba(109, 160, 21, 0.1),  /* #6DA015 = rgba(109,160,21,opacity) */
+  rgba(70, 192, 162, 0.1)   /* #46C0A2 = rgba(70,192,162,opacity) */
+);
+
 }

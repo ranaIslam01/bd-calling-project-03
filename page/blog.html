@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bd-calling-project-03</title>
-    <link rel="icon" type="image/png" href="/Images/logo.png" />
+    <link rel="icon" type="image/png" href="/Images/logo.png">
     <link rel="stylesheet" href="/style.css" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,11 +28,11 @@
     <!-- colors -->
   </head>
   <body class="roboto relative">
-    <header class="relative">
+     <header class="relative">
       <!-- Background Image Layer -->
       <div class="absolute inset-0 -z-10">
         <img
-          src="/Images/cost.png"
+          src="/Images/about.png"
           alt="Swift Express Cargo Background"
           class="w-full h-full bg-center bg-cover object-cover brightness-75 contrast-110"
         />
@@ -133,7 +133,7 @@
             >
           </li>
           <li class="mt-2 pt-6 border-t border-gray-700">
-            <a href="/page/404.html">
+            <a href="/page404.html">
               <button
                 class="w-full py-3 rounded-[38px] bg-[#89CE14] text-white font-semibold"
               >
@@ -142,7 +142,7 @@
             </a>
           </li>
           <li>
-            <a href="/page/404.html">
+            <a href="/page404.html">
               <button
                 class="w-full py-3 mt-2 rounded-[38px] border border-white text-white font-semibold"
               >
@@ -214,7 +214,7 @@
           <h1
             class="text-center text-5xl lg:text-6xl font-bold text-white py-3"
           >
-            Cost Calculator
+            All Blog
           </h1>
           <p class="text-center text-[20px] text-white pb-4">
             Lorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci
@@ -406,101 +406,327 @@
 
     <!-- Main Section Start -->
     <main>
-
-      <!-- Check Your Shipping Price start  -->
-      <section>
-        <div class="flex justify-center items-center flex-col py-10">
-          <div class="shadow-2xl border border-green-100 rounded-lg px-6 py-4 grid grid-cols-2 gap-4">
-            <h1 class="text-3xl font-semibold">Check Your Shipping Price</h1>
-          <div class="col-span-2 relative">  
-            <h4 class="text-[#7B7B7B] font-semibold">Select Product</h4>
-            <input class="w-full py-3 px-4 border mt-2 border-green-200 outline-green-400 placeholder-gray-400 bg-green-50 rounded-xl" type="text" placeholder="Serch for products">
-            <span class="absolute right-6 top-11 text-gray-400 text-lg"><i class="fa-solid fa-magnifying-glass"></i></span>
-          </div>
-          <div class="col-span-1">
-            <h4 class="text-[#7B7B7B] font-semibold">Total Weight</h4>
-            <input class="w-full py-3 px-4 border mt-2 border-green-200 outline-green-400 placeholder-gray-400 bg-green-50 rounded-xl" type="text" placeholder="0.00">
-          </div>
-          <div class="col-span-1 relative">
-            <h4 class="text-[#7B7B7B] font-semibold">Unit</h4>
-            <input class="w-full py-3 px-4 border mt-2 border-green-200 outline-green-400 placeholder-gray-400 bg-green-50 rounded-xl" type="text" placeholder="KG">
-            <span class="absolute top-12 right-6 text-gray-400"><i class="fa-solid fa-angle-down"></i></span>
-          </div>
-          <div class="col-span-2">
-            <h4 class="text-[#7B7B7B] font-semibold">Total Product Value in USD (incl. shipping & tax)</h4>
-            <input class="w-full py-3 px-4 border mt-2 border-green-200 outline-green-400 placeholder-gray-400 bg-green-50 rounded-xl" type="text" placeholder="Total product value in USD">
-          </div>
-          <button  class="col-span-2 button">CALCULATE</button>
-          </div>
-        </div>
-      </section>
-        <!-- Check Your Shipping Price End  -->
-       <!-- Choose section start -->
-      <section class="py-[70px] bg-[#F9FAFC] px-[7%] md:px-[10%]">
-        <h1 class="text-center text-[#333333] font-bold text-4xl">
-          Why Choose Us
+       <!-- Blog section start -->
+      <section class="px-[7%] md:px-[10%] py-[70px]">
+        <h1 class="text-4xl text-[#333333] font-bold text-center md:text-start">
+          Our Blog
         </h1>
-        <p class="text-center mt-2.5 text-[#606060] text-xl">
-          Lorem ipsum dolor sit amet consectetur. Congue lacinia <br />tempor
-          orci tellus sollicitudin morbi. Duis
-        </p>
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 p-0"
-        >
-          <div
-            class="flex justify-center items-center flex-col card p-5 cursor-pointer"
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-xl text-[#606060] mt-2 text-center md:text-start">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has <br />
+            been the industry's standard dummy text ever since the 1500s
+          </p>
+          <a href="/page/blog.html"
+            ><button class="bg-transparent mt-8 md:mt-0 button text hover-btn duration-500">
+              view all
+            </button></a
           >
-            <img src="/Images/packeag.svg" alt="" />
-            <h1 class="text-[#606060] font-medium text-xl py-2">
-              Package Consolidation
-            </h1>
-            <p class="text-center text-[#606060] text-[14px]">
-              Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis
-              blandit fermentum id. Sagittis eu egestas
-            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          <!-- card 1 -->
+          <div class="shadow-lg rounded-xl relative mb-10">
+            <img class="rounded-t-xl" src="/Images/blog1.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 md:px-10 px-5 text-white bg rounded-lg text-xl font-semibold hover:shadow-lg cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
           </div>
-          <div
-            class="flex justify-center items-center flex-col card p-5 cursor-pointer"
-          >
-            <img src="/Images/security.svg" alt="" />
-            <h1 class="text-[#606060] font-medium text-xl py-2">
-              Security & Reliability
-            </h1>
-            <p class="text-center text-[#606060] text-[14px]">
-              Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis
-              blandit fermentum id. Sagittis eu egestas
-            </p>
+
+          <!-- card 2 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog2.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 px-5 lg:px-10 text-white bg rounded-lg text-xl hover:shadow-lg font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
           </div>
-          <div
-            class="flex justify-center items-center flex-col card p-5 cursor-pointer"
-          >
-            <img src="/Images/real-time.svg" alt="" />
-            <h1 class="text-[#606060] font-medium text-xl py-2">
-              Real-time Tracking
-            </h1>
-            <p class="text-center text-[#606060] text-[14px]">
-              Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis
-              blandit fermentum id. Sagittis eu egestas
-            </p>
+          
+          <!-- card 3 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog3.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 hover:shadow-lg lg:px-10 px-5 text-white bg rounded-lg text-xl font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
           </div>
-          <div
-            class="flex justify-center items-center flex-col card p-5 cursor-pointer"
-          >
-            <img src="/Images/support.svg" alt="" />
-            <h1 class="text-[#606060] font-medium text-xl py-2">
-              24/7 Support
-            </h1>
-            <p class="text-center text-[#606060] text-[14px]">
-              Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis
-              blandit fermentum id. Sagittis eu egestas
-            </p>
+          <!-- card 1 -->
+          <div class="shadow-lg rounded-xl relative mb-10">
+            <img class="rounded-t-xl" src="/Images/blog1.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 md:px-10 px-5 text-white bg rounded-lg text-xl font-semibold hover:shadow-lg cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
           </div>
+
+          <!-- card 2 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog2.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 px-5 lg:px-10 text-white bg rounded-lg text-xl hover:shadow-lg font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+          
+          <!-- card 3 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog3.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 hover:shadow-lg lg:px-10 px-5 text-white bg rounded-lg text-xl font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+          <!-- card 1 -->
+          <div class="shadow-lg rounded-xl relative mb-10">
+            <img class="rounded-t-xl" src="/Images/blog1.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 md:px-10 px-5 text-white bg rounded-lg text-xl font-semibold hover:shadow-lg cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog2.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 px-5 lg:px-10 text-white bg rounded-lg text-xl hover:shadow-lg font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+          
+          <!-- card 3 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog3.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 hover:shadow-lg lg:px-10 px-5 text-white bg rounded-lg text-xl font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+          <!-- card 1 -->
+          <div class="shadow-lg rounded-xl relative mb-10">
+            <img class="rounded-t-xl" src="/Images/blog1.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 md:px-10 px-5 text-white bg rounded-lg text-xl font-semibold hover:shadow-lg cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog2.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 px-5 lg:px-10 text-white bg rounded-lg text-xl hover:shadow-lg font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+          
+          <!-- card 3 -->
+          <div class="shadow-lg rounded-xl relative mt-10 lg:mt-0 mb-10">
+            <img class="rounded-t-xl" src="/Images/blog3.jpg" alt="" />
+            <div class="p-5">
+              <h1 class="text-center text-[#555555] text-2xl font-bold py-3">
+                Initial Consultation
+              </h1>
+              <p class="text-[#606060] text-[16px] text-center pb-[50px]">
+                Schedule a meeting with our experienced legal team to discuss
+                your case and understand your needs.
+              </p>
+            </div>
+            <div
+              class="flex justify-center items-center absolute -bottom-7 right-[25%] lg:right-[33%]"
+            >
+              <a href="/page/blog-detales.html"
+                ><button
+                  class="py-3 hover:shadow-lg lg:px-10 px-5 text-white bg rounded-lg text-xl font-semibold cursor-pointer"
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+
         </div>
       </section>
-      <!-- Choose section end -->
+      <!-- Blog section end -->
+
     </main>
     <!-- Main Section End -->
-
     <!-- Footer -->
     <footer
       class="px-[7%] md:px-[10%] py-[70px] last-btn mt-5 gap-8 flex flex-col lg:flex-row justify-between"
@@ -525,19 +751,15 @@
           Support
         </h1>
         <ul class="flex mt-5 text-lg text-white justify-between flex-col gap-3">
-          <a
-            class="text-center lg:text-start hover:underline"
-            href="/page/404.html"
+          <a class="text-center lg:text-start hover:underline" href="/page404.html"
             ><li>FAQ</li></a
           >
-          <a
-            class="text-center lg:text-start hover:underline"
-            href="/page/404.html"
+          <a class="text-center lg:text-start hover:underline" href="/page404.html"
             ><li>return & Exchange</li></a
           >
           <a
             class="text-center lg:text-start hover:underline"
-            href="/page/reat.html"
+            href="/pagereat.html"
             ><li>Shipping</li></a
           >
           <a
@@ -545,14 +767,10 @@
             href="/page/benifit.html"
             ><li>Brand</li></a
           >
-          <a
-            class="text-center lg:text-start hover:underline"
-            href="/page/404.html"
+          <a class="text-center lg:text-start hover:underline" href="/page404.html"
             ><li>Review</li></a
           >
-          <a
-            class="text-center lg:text-start hover:underline"
-            href="/page/404.html"
+          <a class="text-center lg:text-start hover:underline" href="/page404.html"
             ><li>Help</li></a
           >
         </ul>
@@ -566,30 +784,28 @@
         <ul class="flex mt-5 text-lg text-white justify-center flex-col gap-3">
           <a
             class="text-center lg:text-start hover:underline"
-            href="/page/services.html"
+            href="/pageservices.html"
             ><li>Services</li></a
           >
           <a
             class="text-center lg:text-start hover:underline"
-            href="/page/resticate.html"
+            href="/pageresticate.html"
             ><li>Restricter Items</li></a
           >
-          <a
-            class="text-center lg:text-start hover:underline"
-            href="/page/404.html"
+          <a class="text-center lg:text-start hover:underline" href="/page404.html"
             ><li>Terms & Conditions</li></a
           >
-          <a class="text-center lg:text-start hover:underline" href="/page/"
+          <a class="text-center lg:text-start hover:underline" href="/page"
             ><li>Privacy Policy</li></a
           >
           <a
             class="text-center lg:text-start hover:underline"
-            href="/page/blog.html"
+            href="/pageblog.html"
             ><li>Blog</li></a
           >
           <a
             class="text-center lg:text-start hover:underline"
-            href="/page/contact.html"
+            href="/pagecontact.html"
             ><li>Contact Us</li></a
           >
         </ul>
@@ -600,9 +816,7 @@
         >
           Join a Newsletter
         </h1>
-        <p class="mt-5 text-lg text-white text-center md:text-start">
-          Your Email
-        </p>
+        <p class="mt-5 text-lg text-white text-center md:text-start">Your Email</p>
         <div class="flex justify-between items-center relative my-4">
           <input
             type="text"
