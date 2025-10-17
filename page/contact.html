@@ -28,211 +28,76 @@
     <!-- colors -->
   </head>
   <body class="roboto relative">
-    <header class="relative">
-      <!-- Background Image Layer -->
-      <div class="absolute inset-0 -z-10">
-        <img
-          src="/Images/contact.jpg"
-          alt="Swift Express Cargo Background"
-          class="w-full h-full bg-center bg-cover object-cover brightness-75 contrast-110"
-        />
-        <div class="absolute inset-0"></div>
-      </div>
+    <div>
+      <!-- Navbar + Header Section -->
+<div class="bg-[url('/Images/contact.png')] bg-center bg-cover fixed top-0 left-0 right-0 z-50">
+  <!-- Navbar Start -->
+  <nav class="flex justify-between items-center px-[7%] py-3 backdrop-brightness-70 backdrop-contrast-100 backdrop-blur-xl shadow-lg">
+    <!-- Logo -->
+    <div>
+      <a href="/">
+        <img class="h-[60px] cursor-pointer" src="/Images/logo.png" alt="Swift Express Cargo Logo" />
+      </a>
+    </div>
 
-      <!-- Navbar -->
-      <nav
-        class="flex justify-between items-center px-[7%] py-3 backdrop-blur-xl relative z-20"
-      >
-        <div>
-          <a href="/">
-            <img
-              class="h-[60px] cursor-pointer"
-              src="/Images/logo.png"
-              alt="Swift Express Cargo Logo"
-            />
-          </a>
-        </div>
-        <div class="md:hidden">
-          <i id="menu-icon" class="fa-solid text-white text-3xl fa-bars"></i>
-        </div>
-        <div class="hidden lg:block">
-          <ul
-            class="flex justify-between items-center gap-6 text-white font-medium text-lg"
-          >
-            <li><a class="hover:text-[#89CE14]" href="/">Home</a></li>
-            <li>
-              <a class="hover:text-[#89CE14]" href="/page/services.html"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a class="hover:text-[#89CE14]" href="/page/about.html"
-                >About us</a
-              >
-            </li>
-            <li>
-              <a class="hover:text-[#89CE14]" href="/page/rates.html">Rates</a>
-            </li>
-            <li>
-              <a class="hover:text-[#89CE14]" href="/page/cost.html">Cost Calculator</a
-              >
-            </li>
-            <li>
-              <a class="hover:text-[#89CE14]" href="/page/contact.html"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="hidden md:flex justify-between gap-3">
-          <button class="button hover" onclick="my_modal_4.showModal()">Sign Up</button>
-      <button onclick="my_modal_3.showModal()" class="button hover">Sign In</button>
-        </div>
-      </nav>
+    <!-- Mobile Menu Icon -->
+    <div id="menu-icon" class="md:hidden text-white text-3xl cursor-pointer">
+      <i class="fa-solid fa-bars"></i>
+    </div>
 
-      <!-- Mobile Drawer Menu -->
-      <div
-        id="mobile-menu"
-        class="fixed top-0 right-[-100%] lg:hidden w-[70%] max-w-sm h-full backdrop-blur-xl bg-opacity-95 p-8 transition-all duration-500 ease-in-out z-50"
-      >
-        <i
-          id="close-icon"
-          class="fa-solid fa-xmark text-white text-3xl absolute top-5 right-6 cursor-pointer"
-        ></i>
-        <ul class="flex flex-col gap-2 text-white font-medium text-xl mt-10">
-          <li>
-            <a class="hover:text-[#89CE14] block py-2" href="/"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="hover:text-[#89CE14] block py-2"
-              href="/page/services.html"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-[#89CE14] block py-2" href="/page/about.html"
-              >About us</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-[#89CE14] block py-2" href="/page/reat.html"
-              >Rates</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-[#89CE14] block py-2" href="/page/cost.html"
-              >Cost Calculator</a
-            >
-          </li>
-          <li>
-            <a class="hover:text-[#89CE14] block py-2" href="/page/contact.html"
-              >Contact Us</a
-            >
-          </li>
-          <li class="mt-2 pt-6 border-t border-gray-700">
-            <a href="/page/404.html">
-              <button
-                class="w-full py-3 rounded-[38px] bg-[#89CE14] text-white font-semibold"
-              >
-                Sign Up
-              </button>
-            </a>
-          </li>
-          <li>
-            <a href="/page/404.html">
-              <button
-                class="w-full py-3 mt-2 rounded-[38px] border border-white text-white font-semibold"
-              >
-                Sign In
-              </button>
-            </a>
-          </li>
-          <li class="mt-2">
-            <img src="/Images/logo.png" alt="" />
-          </li>
-        </ul>
-      </div>
+    <!-- Desktop Menu -->
+    <div class="hidden lg:block">
+      <ul class="flex items-center gap-6 text-white font-medium text-lg">
+        <li><a class="hover:text-[#89CE14]" href="/">Home</a></li>
+        <li><a class="hover:text-[#89CE14]" href="/page/services.html">Services</a></li>
+        <li><a class="hover:text-[#89CE14]" href="/page/about.html">About us</a></li>
+        <li><a class="hover:text-[#89CE14]" href="/page/rates.html">Rates</a></li>
+        <li><a class="hover:text-[#89CE14]" href="/page/cost.html">Cost Calculator</a></li>
+        <li><a class="hover:text-[#89CE14]" href="/page/contact.html">Contact Us</a></li>
+      </ul>
+    </div>
 
-      <!-- Carousel -->
-      <div class="carousel home-header w-full relative z-10">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="/Images/service.png" class="w-full invisible" />
-          <div
-            class="absolute left-[5%] right-[5%] top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide4"
-              ><i class="fa-solid hidden md:block fa-chevron-left arrow"></i
-            ></a>
-            <a href="#slide2"
-              ><i class="fa-solid fa-chevron-right hidden md:block arrow"></i
-            ></a>
-          </div>
-        </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="/Images/banner1.jpg" class="w-full" alt="Cargo Ship" />
-          <div
-            class="absolute left-[5%] right-[5%] top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide1"><i class="fa-solid fa-chevron-left arrow"></i></a>
-            <a href="#slide3"
-              ><i class="fa-solid fa-chevron-right arrow"></i
-            ></a>
-          </div>
-        </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="/Images/banner2.jpg" class="w-full" alt="Cargo Plane" />
-          <div
-            class="absolute left-[5%] right-[5%] top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide2"><i class="fa-solid fa-chevron-left arrow"></i></a>
-            <a href="#slide4"
-              ><i class="fa-solid fa-chevron-right arrow"></i
-            ></a>
-          </div>
-        </div>
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="/Images/banner3.jpg" class="w-full" alt="Delivery Truck" />
-          <div
-            class="absolute left-[5%] right-[5%] top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide3"><i class="fa-solid fa-chevron-left arrow"></i></a>
-            <a href="#slide1"
-              ><i class="fa-solid fa-chevron-right arrow"></i
-            ></a>
-          </div>
-        </div>
-      </div>
+    <!-- Buttons -->
+    <div class="hidden md:flex gap-3">
+      <button class="button hover" onclick="my_modal_4.showModal()">Sign Up</button>
+      <button class="button hover" onclick="my_modal_3.showModal()">Sign In</button>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+</div>
 
-      <!-- Header Text -->
-      <div
-        class="flex justify-center items-center md:px-[7%] header-text relative z-20"
-      >
-        <div class="md:py-[150px] py-0 lg:w-[575px]">
-          <h1
-            class="text-center text-5xl lg:text-6xl font-bold text-white py-3"
-          >
-            Contact Us
-          </h1>
-          <p class="text-center text-[20px] text-white pb-4">
-            Lorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci
-            tellus sollicitudin morbi. Duis massa sit
-          </p>
-        </div>
-      </div>
+<!-- Header Start -->
+<header class="relative h-[600px] flex items-center justify-center text-center">
+  <!-- Background -->
+  <div class="absolute inset-0 -z-10">
+    <img
+      src="/Images/contact.jpg"
+      class="h-full w-full bg-center bg-cover brightness-90 contrast-"
+      alt="Swift Express Cargo Background"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+  </div>
 
-      <!-- WhatsApp Floating Icon -->
-      <div class="absolute right-10 md:right-20 bottom-10 md:bottom-20 z-30">
-        <a href="#" target="_blank">
-          <i
-            class="fa-brands fa-whatsapp text-3xl rounded-full text-white p-4 border cursor-pointer hover:shadow-lg border-[#89CE14] bg-[#89CE14]"
-          ></i>
-        </a>
-      </div>
+  <!-- Header Content -->
+  <div class="md:max-w-3xl relative z-20 px-[4%]">
+    <h1 class="text-5xl lg:text-6xl font-bold text-white py-3">
+      Contact Us
+    </h1>
+    <p class="text-[20px] text-white pb-4 max-w-[600px] mx-auto">
+      RLorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci tellus sollicitudin morbi. Duis massa sit
+    </p> 
+  </div>
 
-      <!-- Sign Up Modal -->
+  <!-- WhatsApp Floating Icon -->
+  <div class="absolute right-20 bottom-20 z-50">
+    <a href="#" target="_blank">
+      <i
+        class="fa-brands fa-whatsapp text-3xl rounded-full text-white p-4 border cursor-pointer hover:shadow-lg border-[#89CE14] bg-[#89CE14]"
+      ></i>
+    </a>
+  </div>
+
+  <!-- Sign Up Modal -->
       <dialog id="my_modal_4" class="modal">
         <div class="modal-box relative px-10">
           <form method="dialog">
@@ -402,7 +267,35 @@
           </div>
         </div>
       </dialog>
-    </header>
+</header>
+
+<!-- ====== Mobile Drawer Menu ====== -->
+<div
+  id="mobile-menu"
+  class="fixed top-0 right-[-100%] w-[70%] max-w-sm h-full bg-transparent backdrop-blur-xl p-8 transition-all duration-500 ease-in-out z-50 lg:hidden"
+>
+  <div id="close-menu" class="absolute top-6 right-6 text-white text-3xl cursor-pointer">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+  <ul class="flex flex-col gap-4 text-white font-medium text-xl mt-12">
+    <li><a class="hover:text-[#89CE14]" href="/">Home</a></li>
+    <li><a class="hover:text-[#89CE14]" href="/page/services.html">Services</a></li>
+    <li><a class="hover:text-[#89CE14]" href="/page/about.html">About us</a></li>
+    <li><a class="hover:text-[#89CE14]" href="/page/rates.html">Rates</a></li>
+    <li><a class="hover:text-[#89CE14]" href="/page/cost.html">Cost Calculator</a></li>
+    <li><a class="hover:text-[#89CE14]" href="/page/contact.html">Contact Us</a></li>
+    <li class="mt-6 border-t border-gray-700 pt-4">
+      <button class="button hover">Sign Up</button>
+    </li>
+    <li>
+      <button class="button hover">
+        Sign In
+      </button>
+    </li>
+  </ul>
+</div>
+
+    </div>
 
     <!-- Main Section Start -->
     <main>
