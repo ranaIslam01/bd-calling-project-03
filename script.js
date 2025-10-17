@@ -1,30 +1,22 @@
-const menuIcon = document.getElementById("menu-icon");
-const closeIcon = document.getElementById("close-icon");
-const mobileMenu = document.getElementById("mobile-menu");
+  const menuIcon = document.getElementById("menu-icon");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeMenu = document.getElementById("close-menu");
 
-if (menuIcon && mobileMenu && closeIcon) {
-  const openMenu = () => {
+  menuIcon.addEventListener("click", () => {
     mobileMenu.style.right = "0";
-  };
+  });
 
-  const closeMenu = () => {
+  closeMenu.addEventListener("click", () => {
     mobileMenu.style.right = "-100%";
-  };
+  });
 
-  menuIcon.addEventListener("click", openMenu);
-  closeIcon.addEventListener("click", closeMenu);
-
-  // Close menu if clicked outside
+  // Click outside to close menu
   document.addEventListener(
     "click",
-    (event) => {
-      if (
-        !mobileMenu.contains(event.target) &&
-        !menuIcon.contains(event.target)
-      ) {
-        closeMenu();
+    (e) => {
+      if (!mobileMenu.contains(e.target) && !menuIcon.contains(e.target)) {
+        mobileMenu.style.right = "-100%";
       }
     },
     true
-  )
-}
+  );
