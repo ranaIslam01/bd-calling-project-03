@@ -1,41 +1,48 @@
-# Swift Express Cargo - সম্পূর্ণ ওয়েবসাইট
+Swift Express Cargo - Full Website
+A modern, complete, and fully responsive website built for Swift Express Cargo. This project is developed using HTML and Tailwind CSS. It serves as a digital identity for a cargo and logistics company, providing detailed information about their services, pricing, and customer support.
 
-"Swift Express Cargo"-এর জন্য তৈরি একটি আধুনিক, সম্পূর্ণ এবং প্রতিক্রিয়াশীল (responsive) ওয়েবসাইট। এই প্রকল্পটি **HTML** এবং **Tailwind CSS** ব্যবহার করে তৈরি করা হয়েছে। এটি একটি কার্গো ও লজিস্টিকস কোম্পানির ডিজিটাল পরিচিতি, যা তাদের পরিষেবা, মূল্য তালিকা, এবং গ্রাহক সহায়তার বিস্তারিত তথ্য প্রদান করে।
+<img width="1353" height="648" alt="Screenshot" src="https://github.com/user-attachments/assets/14cc7934-8d4a-416d-a36c-075edd6b0d72" />
 
-<img width="1353" height="648" alt="Screenshot 2025-10-23 194900" src="https://github.com/user-attachments/assets/14cc7934-8d4a-416d-a36c-075edd6b0d72" />
+🌟 Key Features
+Complete Website: Not just a landing page; it includes multiple functional pages such as Home, Services, About Us, Rates, Cost Calculator, and Contact Us.
 
+Fully Responsive: Perfectly optimized for all devices, including desktops, tablets, and mobile phones.
 
-## 🌟 প্রধান বৈশিষ্ট্য (Key Features)
+Modern & User-Friendly Design: A clean and intuitive interface designed to help customers find necessary information effortlessly.
 
-- **সম্পূর্ণ ওয়েবসাইট:** এটি শুধু একটি ল্যান্ডিং পেজ নয়, এতে `Home`, `Services`, `About Us`, `Rates`, `Cost Calculator`, এবং `Contact Us` সহ একাধিক কার্যকরী পেজ রয়েছে।
-- **সম্পূর্ণ প্রতিক্রিয়াশীল (Fully Responsive):** ডেস্কটপ, ট্যাবলেট এবং মোবাইল—সব ধরনের ডিভাইসের জন্য ওয়েবসাইটটি নিখুঁতভাবে অপ্টিমাইজ করা হয়েছে।
-- **আধুনিক ও ব্যবহারকারী-বান্ধব ডিজাইন:** একটি পরিচ্ছন্ন এবং সহজে ব্যবহারযোগ্য ইন্টারফেস যা গ্রাহকদের প্রয়োজনীয় তথ্য খুঁজে পেতে সাহায্য করে।
-- **কার্গো ট্র্যাকিং:** হোমপেজে একটি কার্যকরী ট্র্যাকিং সিস্টেম রয়েছে, যা গ্রাহকদের তাদের পার্সেলের অবস্থান জানতে সাহায্য করে।
-- **খরচ ক্যালকুলেটর (Cost Calculator):** একটি ইন্টারেক্টিভ ক্যালকুলেটর যা গ্রাহকদের তাদের কার্গোর সম্ভাব্য খরচ গণনা করতে দেয়।
-- **Tailwind CSS:** দ্রুত এবং কাস্টমাইজযোগ্য স্টাইলিং এর জন্য ইউটিলিটি-ফার্স্ট CSS ফ্রেমওয়ার্ক ব্যবহার করা হয়েছে।
+Cargo Tracking: A functional tracking system on the homepage that allows customers to check their parcel's location.
 
-## 📄 পেজসমূহ (Pages Included)
+Cost Calculator: An interactive tool for customers to estimate the potential cost of their cargo.
 
-- **Home:** আকর্ষণীয় হিরো সেকশন, ট্র্যাকিং সুবিধা এবং কোম্পানির প্রধান পরিষেবাগুলোর সংক্ষিপ্ত বিবরণ।
-- **Services:** কোম্পানি কী কী ধরনের পরিষেবা (যেমন: এয়ার ফ্রেইট, ওশান ফ্রেইট, রোড ট্রান্সপোর্ট) প্রদান করে তার বিস্তারিত বর্ণনা।
-- **About Us:** কোম্পানির ইতিহাস, লক্ষ্য, উদ্দেশ্য এবং টিমের পরিচিতি।
-- **Rates:** বিভিন্ন গন্তব্যের জন্য কার্গো পাঠানোর মূল্য তালিকা।
-- **Cost Calculator:** ওজন, দূরত্ব এবং পরিষেবার ধরনের উপর ভিত্তি করে খরচ গণনার একটি টুল।
-- **Contact Us:** যোগাযোগের ঠিকানা, ফোন নম্বর, ইমেল এবং একটি কন্টাক্ট ফর্ম।
+Tailwind CSS: Built with a utility-first CSS framework for fast, sleek, and customizable styling.
 
-## 🛠️ ব্যবহৃত প্রযুক্তি (Tech Stack)
+📄 Pages Included
+Home: Features an attractive hero section, tracking functionality, and a brief overview of core services.
 
-- **মার্কআপ:** HTML5
-- **স্টাইলিং:** [Tailwind CSS](https://tailwindcss.com/ )
-- **জাভাস্ক্রিপ্ট:** ভ্যানিলা জাভাস্ক্রিপ্ট (স্লাইডার, ক্যালকুলেটর এবং অন্যান্য ইন্টারেক্টিভ ফিচারের জন্য)
-- **আইকন:** [Font Awesome](https://fontawesome.com/ ) / [Heroicons](https://heroicons.com/ ) (আপনার ব্যবহৃত আইকন লাইব্রেরি)
+Services: Detailed descriptions of the services offered, such as Air Freight, Ocean Freight, and Road Transport.
 
-## 🚀 কিভাবে চালাবেন (How to Run)
+About Us: Covers the company’s history, mission, vision, and team introduction.
 
-যেহেতু এটি একটি স্ট্যাটিক ওয়েবসাইট, তাই এটি চালানো খুবই সহজ।
+Rates: Comprehensive pricing lists for cargo shipments to various destinations.
 
-### ধাপ ১: প্রজেক্ট ক্লোন করুন
+Cost Calculator: A dedicated tool to calculate shipping costs based on weight, distance, and service type.
 
-প্রথমে, এই রিপোজিটরিটি আপনার লোকাল মেশিনে ক্লোন করুন (আপনার রিপোজিটরি URL ব্যবহার করুন):
-```bash
-git clone https://github.com/your-username/your-repo-name.git
+Contact Us: Provides the office address, phone number, email, and a functional contact form.
+
+🛠️ Tech Stack
+Markup: HTML5
+
+Styling: Tailwind CSS
+
+JavaScript: Vanilla JavaScript (used for sliders, calculators, and other interactive features)
+
+Icons: Font Awesome / Heroicons
+
+🚀 How to Run
+Since this is a static website, it is very easy to run locally.
+
+Step 1: Clone the Project
+First, clone this repository to your local machine using your repository URL:
+
+Bash
+git clone https://github.com/ranaIslam01/bd-calling-project-03.git
